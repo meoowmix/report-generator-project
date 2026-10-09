@@ -19,7 +19,9 @@ def generate_squadron_report(squadron_code, output_file):
         output_file (str): Path to save the report
     """
     # TODO: PART 1 - Load the data files
-    pass
+    pilots = rf.read_csv_file('../data/pilots.csv')
+    aircraft = rf.read_csv_file('../data/aircraft.csv')
+    flight_logs = rf.read_csv_file('../data/flight_logs.csv')
 
     # TODO: PART 2 - Filter data for the specified squadron
     pass
